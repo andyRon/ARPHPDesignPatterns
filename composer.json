@@ -1,0 +1,21 @@
+{
+  "name": "andyron/ar-php-design-patterns",
+  "description": "Design patterns in PHP",
+  "license": ["MIT"],
+  "authors": [
+    {
+      "name": "Andy Ron",
+      "email": "randy.njfu@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.1"
+  },
+  "autoload": {
+    "classmap": ["Behavioral", "Creational", "Structural"]
+  }
+}
